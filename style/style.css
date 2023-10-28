@@ -87,6 +87,12 @@
   padding: 40px 12.5%;
   gap: 50px;
 }
+.section-image-arrow-left {
+  background-color: black;
+}
+.section-image-arrow-right {
+  background-color: black;
+}
 .section-star {
   display: flex;
 }
