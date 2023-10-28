@@ -1,3 +1,5 @@
+@import "global"
+
 .navbar{
 
     background-color: rgba(35, 133, 109, 1);
@@ -24,6 +26,7 @@
            &-icon{
 
             display: flex;
+            margin-left: 10px;
 
 
 
@@ -163,6 +166,17 @@
 
     &-image{
 
+        background-image: url(../assets/single-product-1-cover-2.jpg);
+        width: 67%;
+
+        &-under{
+
+            
+        }
+    
+
+        
+
         &-link{
 
 
@@ -171,12 +185,17 @@
          
 
             &-left{
-
-                background-color: black;
+        
+                position: relative;
+                top: 49.5%;
+                left: 10%;
             }
 
             &-right{
-                background-color: black;
+               
+                position: relative;
+                left: 78.6%;
+                top: 49.5%;
 
 
             }
@@ -200,8 +219,8 @@
     &-btn{
         background: #23A6F0;
         color: white;
-        width: 135px;
-        height: 40px;
+        width: 155px;
+        height: 50.1px;
         border: none;
         border-radius: 5px;
 
@@ -224,15 +243,17 @@
 
     &-icon{
         display: flex;
+        margin-left: 30px;
         
       
 
         &-prp{
             width: 26px;
-            border: none;
-            border-radius: 50%;
             background-color: #fff;
             padding: 10px;
+            border: 1px solid rgba(189, 189, 189, 1);
+            border-radius: 50%;
+
         }
     }
 }

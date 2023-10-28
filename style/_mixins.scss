@@ -1,0 +1,30 @@
+@import "variables";
+
+
+@mixin destkop{
+    @media (max-width:$large-device-width){
+    @content;   
+
+}
+
+}
+
+@mixin tablet{
+    @media (max-width:$mediium-device-width){
+    @content;
+    }
+}
+
+@mixin mobile{
+    @media (max-width:$small-device-width){
+    @content;
+    }
+
+}
+
+@mixin mobile-small{
+    @media (max-width:$extra-small-device-width){
+    @content
+    }
+
+}

@@ -17,6 +17,7 @@
 }
 .navbar_element1-icon {
   display: flex;
+  margin-left: 10px;
 }
 
 .number {
@@ -87,11 +88,19 @@
   padding: 40px 12.5%;
   gap: 50px;
 }
+.section-image {
+  background-image: url(../assets/single-product-1-cover-2.jpg);
+  width: 67%;
+}
 .section-image-arrow-left {
-  background-color: black;
+  position: relative;
+  top: 49.5%;
+  left: 10%;
 }
 .section-image-arrow-right {
-  background-color: black;
+  position: relative;
+  left: 78.6%;
+  top: 49.5%;
 }
 .section-star {
   display: flex;
@@ -99,8 +108,8 @@
 .section-btn {
   background: #23A6F0;
   color: white;
-  width: 135px;
-  height: 40px;
+  width: 155px;
+  height: 50.1px;
   border: none;
   border-radius: 5px;
 }
@@ -114,13 +123,14 @@
 }
 .section-icon {
   display: flex;
+  margin-left: 30px;
 }
 .section-icon-prp {
   width: 26px;
-  border: none;
-  border-radius: 50%;
   background-color: #fff;
   padding: 10px;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 50%;
 }
 
 p {
